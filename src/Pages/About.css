@@ -1,0 +1,77 @@
+/* ye about ka he */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Space+Mono&display=swap');
+
+
+div.back{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* Beautiful */
+
+.hero3-ul {
+  margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    list-style-type: none;
+    padding: 0;
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 50.107px;
+/* background: linear-gradient(180deg, #FFFFFF 54.69%, rgba(2, 4, 3, 0) 100%); */
+line-height: 120%;
+/* identical to box height, or 310px */
+text-align: center;
+letter-spacing: -0.03em;
+
+  }
+  
+  .hero3-ul li {
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn ease-in-out 1s forwards;
+  }
+  
+ ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp ease-in-out 1s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+li:nth-child(1) {
+  animation-delay: 1s;
+}
+
+li:nth-child(2) {
+  animation-delay: 3s;
+}
+
+li:nth-child(3) {
+  animation-delay: 5s;
+}

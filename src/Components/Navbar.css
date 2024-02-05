@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+
+
+.Navbar{
+    display: flex;
+    width: 100%;
+    height: 86px;
+    margin:auto;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    z-index: 2;
+    /* border-radius: 100px; */
+}
+
+/* .Navbar div a:hover{
+    color: gold;
+} */
+
+
+
+.Navbar div a {
+    /* position: relative; 
+    display: block; */
+    /* width: 60px;
+    height: 60px; */
+    /* text-align: center; */
+    /* line-height: 63px;
+    background: #333;
+    border-radius: 50%; */
+    /* font-size: 30px; */
+    color: #666;
+    transition: .5s;
+  }
+
+
+.Navbar div a:hover::before {
+    transform: scale(1.1);
+    /* box-shadow: 0 0 15px #ffee10; */
+  }
+  
+  .Navbar div a:hover {
+    color: #ffee10;
+    /* box-shadow: 0 0 5px #ffee10; */
+    text-shadow: 0 0 5px #ffee10;
+  }
+

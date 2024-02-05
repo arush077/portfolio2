@@ -1,0 +1,130 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #00071C;
+} */
+ .socials_ul {
+   position: relative;
+   display: flex;
+   /* transform: rotate(-25deg) skew(25deg); */
+   transform-style: preserve-3d;
+}
+.socials_ul .socials_li {
+  position: relative;
+  list-style: none;
+  width: 60px;
+  height: 60px;
+  margin: 0px 20px;
+}
+.socials_ul .socials_li:before{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: -5px;
+  width: 100%;
+  height: 10px;
+  background: #2a2a2a;
+  transform-origin: top;
+  transform: skewX(-41deg);
+}
+.socials_ul .socials_li:after{
+  content: '';
+  position: absolute;
+  top:5px;
+  left: -9px;
+  width: 9px;
+  height: 100%;
+  background: #2a2a2a;
+  transform-origin: right;
+  transform: skewY(-49deg);
+}
+.socials_ul .socials_li span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  background: #2a2a2a;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 30px !important;
+  transition: 1.5s ease-out;
+}
+.socials_ul .socials_li:hover span {
+  z-index: 1000;
+  transition: .3s;
+  color: #fff;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, .5);
+}
+.socials_ul .socials_li:hover span:nth-child(5){
+  transform: translate(40px, -40px);
+  opacity: 1;
+}
+.socials_ul .socials_li:hover span:nth-child(4){
+  transform: translate(30px, -30px);
+  opacity: .8;
+}
+.socials_ul .socials_li:hover span:nth-child(3){
+  transform: translate(20px, -20px);
+  opacity: .6;
+}
+.socials_ul .socials_li:hover span:nth-child(2){
+  transform: translate(10px, -10px);
+  opacity: .4;
+}.socials_ul .socials_li:hover span:nth-child(1){
+  transform: translate(0px, 0px);
+  opacity: .2;
+}
+.socials_ul .socials_li:nth-child(1):hover span{
+  background:#2a2a2a !important;
+}
+.socials_ul .socials_li:nth-child(2):hover span{
+  background: #2C3456 !important;
+}
+.socials_ul .socials_li:nth-child(3):hover span{
+  background:hotpink !important;
+}
+.socials_ul .socials_li:nth-child(4):hover span{
+  background: rgb(4, 151, 4) !important;
+}
+
+
+
+.socials_back {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.socials_ul{
+/*   
+  margin-top: 131px;
+  margin-left: 224px; */
+
+}
+
+.Socials_icons{
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+.socials_heading{
+  color: white;
+ 
+    margin-left: 30%;
+    margin-bottom: 15%;
+    font-size: 40px;
+  
+    font-weight: 700;
+}

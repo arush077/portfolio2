@@ -1,0 +1,93 @@
+/* 
+.Projects_class{
+    width: 20px;
+height: 20px;
+background-color: black;
+} */
+
+
+
+
+/* .body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(22, 20, 24);
+    color: #eee;
+    user-select: none;
+  } */
+
+
+/* //----------------------------------- */
+/* 
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .product__rating {
+    display: flex;
+  }
+  
+  .product > img {
+    max-height: 200px;
+    width: 100%;
+    /* to maintain ratio */
+    /* object-fit: contain; 
+    margin-bottom: 15px; */
+  /* }
+  
+  .product > button {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+  }
+  
+  .product__price {
+    margin-top: 5px;
+  }
+  
+  .product__info {
+    height: 100px;
+    margin-bottom: 15px;
+  }
+
+
+  .product__brandname{
+    font-size: 20px;
+    font-weight: bold;
+  /* } */ 
+
+  /* -------------- */
+
+
+  .cards{
+    /* width: 30%; */
+    height: 300px;
+    /* background-color: black; */
+    background-color: white;
+  }
+
+
+  /* .a{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: black;
+    color: blue;
+} */
