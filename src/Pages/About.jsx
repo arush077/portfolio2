@@ -5,8 +5,8 @@ import './About.css'
 const About = () => {
   return (
     <div div className='back' style={{
-      // backgroundImage: `url(${process.env.PUBLIC_URL}/groupabout.png)`,
-      backgroundColor:'black',
+      backgroundImage: `url(${process.env.PUBLIC_URL}/groupabout.png)`,
+      // backgroundColor:'black',
       // backgroundImage: 'url("/groupabout.png")', // Adjust the path to match your project structure
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
