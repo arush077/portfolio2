@@ -71,6 +71,7 @@
     -webkit-backdrop-filter: blur(7px);
     overflow: hidden;
     transition: 0.5s all;
+    cursor: pointer;
 
 
 }
@@ -119,4 +120,10 @@
       top: -100%;
       left: 200%;
     }
+  }
+
+
+  .Link a{
+    color: white;
+    text-decoration: none;
   }
