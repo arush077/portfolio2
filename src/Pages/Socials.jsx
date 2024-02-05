@@ -123,7 +123,7 @@ const Socials = () => {
         backgroundRepeat: 'no-repeat',
         minHeight: '100vh',
         filter: isImageLoaded ? 'none' : 'blur(20px)',
-        transition: 'filter 0.5s ease',
+        transition: 'filter 1.2s ease',
         // Add other styles as needed
       }}
     >

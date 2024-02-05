@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from 'react';
 import "./Projects.css";
 // import Typed from 'react-typed'; //for the typing effect we used typed.js
 import { useTypewriter, Cursor } from "react-simple-typewriter";
@@ -9,11 +9,56 @@ import Project_Cards from "./Project_Cards";
 
 
 
-function Projects() {
+// function Projects() {
+
+
+
+
+
+
+
+
+  // import './Socials.css';
+  
+  const Projects = () => {
+    const [isImageLoaded, setIsImageLoaded] = useState(false);
+    const backgroundRef = useRef(null);
+  
+    useEffect(() => {
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Load the background image when it enters the viewport
+            const image = new Image();
+            image.src = `${process.env.PUBLIC_URL}/project05.png`;
+            image.onload = () => {
+              entry.target.style.backgroundImage = `url(${image.src})`;
+              setIsImageLoaded(true);
+              observer.unobserve(entry.target);
+            };
+          }
+        });
+      });
+  
+      if (backgroundRef.current) {
+        observer.observe(backgroundRef.current);
+      }
+  
+      return () => {
+        if (backgroundRef.current) {
+          observer.unobserve(backgroundRef.current);
+        }
+      };
+    }, []);
+
+
+
 
 
   return (
-    <div className="Projects_class" style={{
+    <div className="Projects_class" 
+    ref={backgroundRef}
+    style={{
       // backgroundImage: `url(${process.env.PUBLIC_URL}/groupabout.png)`,
       // backgroundColor:'black',
        //backgroundImage: 'url("/groupabout.png")', // Adjust the path to match your project structure
@@ -24,6 +69,10 @@ function Projects() {
       // opacity:'50%',
       minHeight: '100vh', // Set an appropriate height
       // Add other styles as needed
+
+      filter: isImageLoaded ? 'none' : 'blur(20px)',
+        transition: 'filter 1.2s ease',
+
     }}>
     
 
