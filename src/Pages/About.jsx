@@ -13,7 +13,7 @@ const About = () => {
         if (entry.isIntersecting) {
           // Load the background image when it enters the viewport
           const image = new Image();
-          image.src = `${process.env.PUBLIC_URL}/groupabout.png`;
+          image.src = `${process.env.PUBLIC_URL}/groupabout.jpg`;
           image.onload = () => {
             entry.target.style.backgroundImage = `url(${image.src})`;
             setIsImageLoaded(true);

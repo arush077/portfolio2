@@ -92,7 +92,7 @@ const Socials = () => {
         if (entry.isIntersecting) {
           // Load the background image when it enters the viewport
           const image = new Image();
-          image.src = `${process.env.PUBLIC_URL}/socials2.png`;
+          image.src = `${process.env.PUBLIC_URL}/socials2.jpg`;
           image.onload = () => {
             entry.target.style.backgroundImage = `url(${image.src})`;
             setIsImageLoaded(true);

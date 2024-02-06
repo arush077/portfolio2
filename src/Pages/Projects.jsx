@@ -30,7 +30,8 @@ import Project_Cards from "./Project_Cards";
           if (entry.isIntersecting) {
             // Load the background image when it enters the viewport
             const image = new Image();
-            image.src = `${process.env.PUBLIC_URL}/project05.png`;
+            // image.src = `${process.env.PUBLIC_URL}/projects1.jpg`;
+            image.src = `${process.env.PUBLIC_URL}/project05.jpg`;
             image.onload = () => {
               entry.target.style.backgroundImage = `url(${image.src})`;
               setIsImageLoaded(true);
@@ -84,7 +85,8 @@ import Project_Cards from "./Project_Cards";
       // backgroundImage: `url(${process.env.PUBLIC_URL}/groupabout.png)`,
       // backgroundColor:'black',
        //backgroundImage: 'url("/groupabout.png")', // Adjust the path to match your project structure
-       backgroundImage: `url(${process.env.PUBLIC_URL}/project05.png)`,
+      //  backgroundImage: `url(${process.env.PUBLIC_URL}/project05.png)`,
+      // backgroundImage: `url(${process.env.PUBLIC_URL}/socials.png)`,
        backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',

@@ -57,7 +57,7 @@ const Home = () => {
     ref={backgroundRef}
     style={{
       //  backgroundImage: 'url("../../public/grouphomepng.png")', // Adjust the path to match your project structure
-      backgroundImage: `url(${process.env.PUBLIC_URL}/grouphomepng.png)`,
+      backgroundImage: `url(${process.env.PUBLIC_URL}/grouphomepng (2).jpg)`,
       // backgroundImage:img,
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
