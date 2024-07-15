@@ -32,6 +32,7 @@ import Project_Cards from "./Project_Cards";
             const image = new Image();
             // image.src = `${process.env.PUBLIC_URL}/projects1.jpg`;
             image.src = `${process.env.PUBLIC_URL}/project05.jpg`;
+            // image.src = `${process.env.PUBLIC_URL}/gpa.jpeg`;
             image.onload = () => {
               entry.target.style.backgroundImage = `url(${image.src})`;
               setIsImageLoaded(true);
