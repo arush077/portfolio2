@@ -57,7 +57,7 @@ const About = () => {
 
 <ul className='hero3-ul'>
             <li className='hero3-hey'>About me: </li>
-            <li className='hero3-pre'>I'm a final year student at BITS Pilani,Pilani Campus</li>
+            <li className='hero3-pre'>I'm a prefinal year student at BITS Pilani,Pilani Campus</li>
             <li className='hero3-branch'>Branch: Electrical And Electronics</li>
         </ul>
     </div>
