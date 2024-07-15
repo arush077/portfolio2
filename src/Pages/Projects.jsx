@@ -56,7 +56,7 @@ import Project_Cards from "./Project_Cards";
     //adding the url of the websites that we need
     const handleDivClick_amazon = () => {
       // Replace 'https://example.com' with the URL you want to redirect to
-      window.location.href = 'https://example.com';
+      window.location.href = 'https://leetcode.com/u/arushshetty07/';
     };
 
     const handleDivClick_toi = () => {
@@ -118,8 +118,8 @@ import Project_Cards from "./Project_Cards";
     onClick={handleDivClick_amazon}
     
     >
-     <h1 className="title"> Amazon Clone </h1>
-     <p className="Description">An Amazon clone with Add To Cart Functionality</p>
+     <h1 className="title"> LEETCODE </h1>
+     <p className="Description">Here's the link to my leetcode profile</p>
      {/* <p className="Link"><a href='https://www.google.com/'>Link To Website</a></p> */}
       </div>
 
