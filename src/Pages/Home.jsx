@@ -88,9 +88,10 @@ const Home = () => {
        
     </div>
 
-    <div className='page2' id='hi_page2'>
+    {/* <div className='page2' id='hi_page2'>
       <h1 className='animated-textx'>HI</h1>
-    </div>
+    </div> */}
+    
 
 
     </div>
