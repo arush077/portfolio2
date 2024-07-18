@@ -118,7 +118,7 @@ import Project_Cards from "./Project_Cards";
     onClick={handleDivClick_amazon}
     
     >
-     <h1 className="title"> Amazon Clone </h1>
+     <h1 className="title"> Leetcode </h1>
      <p className="Description">An Amazon clone with Add To Cart Functionality</p>
      {/* <p className="Link"><a href='https://www.google.com/'>Link To Website</a></p> */}
       </div>
