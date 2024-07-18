@@ -56,7 +56,7 @@ import Project_Cards from "./Project_Cards";
     //adding the url of the websites that we need
     const handleDivClick_amazon = () => {
       // Replace 'https://example.com' with the URL you want to redirect to
-      window.location.href = 'https://leetcode.com/';
+      window.location.href = 'https://leetcode.com/u/arushshetty07/';
     };
 
     const handleDivClick_toi = () => {
